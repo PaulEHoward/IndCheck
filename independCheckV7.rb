@@ -1,3 +1,7 @@
+# This is part of a 'Git' experiment so everything here can be ignored.  What I'm thinking of
+# doing is to replace arrays by hashes for data from the potentialbiggie file.
+
+
 # Note120Calculations.rb - a modification of IndependCheckV7.rb designed to write the
 # form_model_cores derivable from note 120 or note 2.  We'll read from the same files
 # as IndependCheckV7.rb and write to N120form_model_cores.out
@@ -322,7 +326,12 @@ modfile = File.new("ProblemNonImps.out","w")             # open a file for the o
 #   7.  Continue with the next model
 
 tfa = Array.new                                                  # arrays to hold the true forms and false forms from a model
+
+#  3/18 Replacement line tfa = Hash.new
+
 ffa = Array.new
+
+#  3/18 Replacement line ffa = Hash.new
 
 ###########################################################
 #    Methods for updatind tfa and ffa using n120 and n2  and for updating independ  #
