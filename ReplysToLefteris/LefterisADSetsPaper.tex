@@ -1,0 +1,34 @@
+\documentclass[12pt,notitlepage]{amsart}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{arrows,positioning}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newtheorem{claim}{Claim}
+\newtheorem{deftemp}{Definition}
+%\newenvironment{proof}{\par \noindent \textsc{Proof.}}{\hfill $\square$ \vskip.1in}
+\newenvironment{definition}{\begin{deftemp} \normalfont}{\end{deftemp}}
+%\def\orb{\text{Orb}}
+%\def\fix{\text{fix}}
+%\pagestyle{empty}
+\usepackage{bbm}
+\newtheorem{proposition}{Proposition}
+\newtheorem{corollary}{Corollary}
+%\theorembodyfont{\rmfamily}
+%\newenvironment{proof}{\smallskip\noindent\textsc{Proof.}\hskip.1in}
+%{\hfill$\square$\par\smallskip}
+\DeclareMathOperator{\fix}{{\rm fix}}
+\DeclareMathOperator{\Sym}{{\rm Sym}}
+\DeclareMathOperator{\Orb}{{\rm Orb}}
+\DeclareMathOperator{\dom}{{\rm dom}}
+\def\seq#1{\langle #1 \rangle}
+\hoffset-1.in \textwidth7.in \voffset -.75in \textheight 9.25in
+\begin{document}
+\begin{theorem}
+In $\mathcal{N}(3)$ every almost disjoint family can be extended to a maximal almost disjoint family.
+\end{theorem}
+
+\begin{proof}
+Assme that $A$ is an almost disjoint family in $\mathcal{N}(3)$ with (finite) support $E$.  We may assume without loss of generality that $A$ is maximal among almost disjoint families in $\mathcal{N}(3)$ with support $E$.
+\end{proof}
