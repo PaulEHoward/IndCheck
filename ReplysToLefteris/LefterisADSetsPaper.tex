@@ -30,5 +30,17 @@ In $\mathcal{N}(3)$ every almost disjoint family can be extended to a maximal al
 \end{theorem}
 
 \begin{proof}
-Assme that $A$ is an almost disjoint family in $\mathcal{N}(3)$ with (finite) support $E$.  We may assume without loss of generality that $A$ is maximal among almost disjoint families in $\mathcal{N}(3)$ with support $E$.
+Assume that $\mathcal{A}$ is an almost disjoint family of subsets of $X$ in $\mathcal{N}(3)$ with (finite) support $E$.  We may assume without loss of generality that $\mathcal{A}$ is maximal among almost disjoint families in $\mathcal{N}(3)$ with support $E$.  
+\par\noindent\textbf{Claim.}  $\mathcal{A}$ is a maximal almost disjoint family in $\mathcal{N}(2)$.
+\par\noindent\textbf{Proof.}  Assume $\mathcal{A}$ is not maximal and that $B$ is a subset of $X$ which is in $\mathcal{N}(3)$ but not in $\mathcal{A}$ for which $\mathcal{A} \cup \{ B  \}$ is an almost disjoint family.  Assume that the (least) support of $B$ is $E'$.  Since $\mathcal{A}$ is maximal among almost disjoint families with support $E$, there is an atom $a_0 \in E' \setminus E$.
+
+We first note that 
+\begin{equation} \label{E:forallphi}
+\forall \psi \in \fix_G(E), \forall A \in \mathcal{A}, \psi(B) \cap A \mbox{ is finite.}
+\end{equation}
+(If $\psi(B) \cap A$ is infinite for some $A \in \mathcal{A}$ then $\psi^{-1}(\psi(B) \cap A) = B \cap \psi^{-1}(A)$ is infinite.  This contradicts the almost disjointness of $\mathcal{A} \cup \{ B \}$ since $\psi^{-1}(A) \in \mathcal{A}$.)
+
+
 \end{proof}
+
+\end{document}
