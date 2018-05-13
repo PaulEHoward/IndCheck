@@ -1,6 +1,6 @@
 # This is part of a 'Git' experiment so everything here can be ignored.  What I'm thinking of
 # doing is to replace arrays by hashes for data from the potentialbiggie file.
-
+# Haven't started yet.
 
 # Note120Calculations.rb - a modification of IndependCheckV7.rb designed to write the
 # form_model_cores derivable from note 120 or note 2.  We'll read from the same files
